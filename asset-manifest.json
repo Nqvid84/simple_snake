@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simple_snake/static/css/main.d8abce24.css",
+    "main.js": "/simple_snake/static/js/main.969ea9e7.js",
+    "index.html": "/simple_snake/index.html",
+    "main.d8abce24.css.map": "/simple_snake/static/css/main.d8abce24.css.map",
+    "main.969ea9e7.js.map": "/simple_snake/static/js/main.969ea9e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8abce24.css",
+    "static/js/main.969ea9e7.js"
+  ]
+}
