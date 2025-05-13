@@ -1,3 +1,7 @@
+# To Visit the demo of the page through Git-Hub.io
+
+This project is available on: [Simple Snake](https://Nqvid84.github.io/simple_snake).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
