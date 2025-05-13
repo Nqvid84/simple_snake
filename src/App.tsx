@@ -252,42 +252,6 @@ const App = () => {
           )}
         </div>
       )}
-      <div className="w-64 h-64 rounded-lg absolute right-8 bottom-8 flex flex-col text-neonBlue">
-        <div className="w-full h-full flex justify-center items-center">
-          <button
-            onClick={() => changeDirection("w")}
-            className="w-20 h-20 bg-neutral-900 rounded flex justify-center items-center"
-            aria-label="Move Up"
-          >
-            {"W"}
-          </button>
-        </div>
-        <div className="w-full h-full flex justify-between items-center">
-          <button
-            onClick={() => changeDirection("a")}
-            className="w-20 h-20 bg-neutral-900 rounded flex justify-center items-center"
-            aria-label="Move Left"
-          >
-            {"A"}
-          </button>
-          <button
-            onClick={() => changeDirection("d")}
-            className="w-20 h-20 bg-neutral-900 rounded flex justify-center items-center"
-            aria-label="Move Right"
-          >
-            {"D"}
-          </button>
-        </div>
-        <div className="w-full h-full flex justify-center items-center">
-          <button
-            onClick={() => changeDirection("s")}
-            className="w-20 h-20 bg-neutral-900 rounded flex justify-center items-center"
-            aria-label="Move Down"
-          >
-            {"S"}
-          </button>
-        </div>
-      </div>
       <button
         onClick={() => setIsPaused(!isPaused)}
         className="mt-4 px-4 py-2 bg-neutral-900 text-neonBlue rounded"
@@ -309,7 +273,9 @@ const App = () => {
           Load
         </button>
       </div>
-
+      <h1 className="absolute bottom-8 right-8 text-white text-sm font-light">
+        Created by <span className="text-neonYellow">Navid neisi</span>
+      </h1>
     </main>
   );
 };
