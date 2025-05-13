@@ -4,7 +4,7 @@ import { Tile } from "./component/tile";
 const height = 15;
 const width = 15;
 const MOVE_DELAY = 150; // Constant for movement delay
-const OBSTACLE_COUNT = 10; // Constant for movement delay
+const OBSTACLE_COUNT = 5; // Constant for obstacle count
 
 interface point {
   x: number;
